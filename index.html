@@ -13,7 +13,16 @@
       <header>
         <div class="header-content">
           <div class="header-text">
-            <h1>Max Laine</h1>
+            <div class="profile-heading">
+              <div class="profile-photo">
+                <!-- Replace the placeholder SVG with <img src="selfie.jpg" alt="Max Laine">. -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" aria-hidden="true">
+                  <circle cx="12" cy="8" r="3" />
+                  <path d="M5 20v-2a7 7 0 0 1 14 0v2" />
+                </svg>
+              </div>
+              <h1>Max Laine</h1>
+            </div>
             <p class="subtitle">MSc at Aalto University · C++ Software Engineering Trainee at Nokia</p>
             <p class="location">Espoo, Finland</p>
 
@@ -21,6 +30,19 @@
               <a href="https://github.com/mxlaine">GitHub</a>
               <a href="https://www.linkedin.com/in/max-laine-4a5777262/">LinkedIn</a>
             </nav>
+          </div>
+
+          <div class="theme-toggle">
+            <input type="checkbox" id="dark-mode-toggle" />
+            <label for="dark-mode-toggle" class="toggle" aria-label="Toggle dark mode">
+              <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
+              </svg>
+              <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20.9 13.1A9 9 0 0 1 10.9 3.1a9 9 0 1 0 10 10Z" />
+              </svg>
+            </label>
           </div>
 
 
